@@ -9,5 +9,5 @@ RUN npm install
 COPY . .
 
 EXPOSE 3030
-CMD [ "npm", "run", "dev" ]
-# CMD [ "npm", "run", "prod" ]
+# CMD [ "npm", "run", "dev" ]
+CMD [ "npm", "run", "prod" ]

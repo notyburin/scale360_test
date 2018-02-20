@@ -5,7 +5,7 @@ import {
 
 const initState = {
   isFetching: false,
-  promotionList: [],
+  discount: 0,
 };
 
 export default (state = initState, action) => {
@@ -19,7 +19,7 @@ export default (state = initState, action) => {
       return {
         ...state,
         isFetching: false,
-        employeeList: action.list,
+        discount: action.discount,
       };
     default:
       return state;

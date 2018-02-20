@@ -1,9 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
+
+import CalculateBill from './CalculateBill';
 
 const App = () => (
-  <div>
-    Hello scale 360
+  <div className="container">
+    <CalculateBill />
   </div>
 );
 
